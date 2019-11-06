@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.10.19)  6 NOV 2019 13:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.10.19)  6 NOV 2019 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1681,29 +1681,40 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 
 
 (./sub/theoritical_background.tex
-<images/mariadblogo.png, id=94, 642.4pt x 580.1675pt>
-File: images/mariadblogo.png Graphic file (type png)
-<use images/mariadblogo.png>
-Package pdftex.def Info: images/mariadblogo.png  used on input line 15.
-(pdftex.def)             Requested size: 188.8096pt x 170.51938pt.
+<images/raspilogo.png, id=94, 402.50375pt x 513.92pt>
+File: images/raspilogo.png Graphic file (type png)
+<use images/raspilogo.png>
+Package pdftex.def Info: images/raspilogo.png  used on input line 9.
+(pdftex.def)             Requested size: 94.4048pt x 120.53595pt.
+<images/raspberrypi3b.jpg, id=95, 803.0pt x 602.25pt>
+File: images/raspberrypi3b.jpg Graphic file (type jpg)
+<use images/raspberrypi3b.jpg>
+Package pdftex.def Info: images/raspberrypi3b.jpg  used on input line 10.
+(pdftex.def)             Requested size: 188.8096pt x 141.60228pt.
  [2
 
 
-]
-<images/awsdata.png, id=103, 959.38425pt x 567.3195pt>
+ <./images/raspilogo.png> <./images/raspberrypi3b.jpg>]
+<images/mariadblogo.png, id=105, 642.4pt x 580.1675pt>
+File: images/mariadblogo.png Graphic file (type png)
+<use images/mariadblogo.png>
+Package pdftex.def Info: images/mariadblogo.png  used on input line 23.
+(pdftex.def)             Requested size: 188.8096pt x 170.51938pt.
+<images/awsdata.png, id=106, 959.38425pt x 567.3195pt>
 File: images/awsdata.png Graphic file (type png)
 <use images/awsdata.png>
-Package pdftex.def Info: images/awsdata.png  used on input line 25.
+Package pdftex.def Info: images/awsdata.png  used on input line 33.
 (pdftex.def)             Requested size: 283.22162pt x 167.47899pt.
-<images/realaws.jpg, id=104, 4263.93pt x 5685.24pt>
+<images/realaws.jpg, id=107, 4263.93pt x 5685.24pt>
 File: images/realaws.jpg Graphic file (type jpg)
 <use images/realaws.jpg>
-Package pdftex.def Info: images/realaws.jpg  used on input line 26.
+Package pdftex.def Info: images/realaws.jpg  used on input line 34.
 (pdftex.def)             Requested size: 141.61081pt x 188.76727pt.
-) [3 <./images/mariadblogo.png> <./images/awsdata.png> <./images/realaws.jpg>]
+) [3 <./images/mariadblogo.png>] [4 <./images/awsdata.png> <./images/realaws.jp
+g>]
 \openout2 = `sub/method_of_the_study.aux'.
 
- (./sub/method_of_the_study.tex [4
+ (./sub/method_of_the_study.tex [5
 
 
 ]
@@ -1716,83 +1727,83 @@ LaTeX Font Info:    Trying to load font information for LUC+uhcmj on input line
 (c:/texlive/2019/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
 File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
 )
-<images/dht22_connect.jpg, id=119, 5685.24pt x 4263.93pt>
+<images/dht22_connect.jpg, id=125, 5685.24pt x 4263.93pt>
 File: images/dht22_connect.jpg Graphic file (type jpg)
 <use images/dht22_connect.jpg>
 Package pdftex.def Info: images/dht22_connect.jpg  used on input line 39.
 (pdftex.def)             Requested size: 283.22162pt x 212.36317pt.
- [5]
-<images/spitest_1.jpg, id=125, 5685.24pt x 4263.93pt>
+ [6]
+<images/spitest_1.jpg, id=131, 5685.24pt x 4263.93pt>
 File: images/spitest_1.jpg Graphic file (type jpg)
 <use images/spitest_1.jpg>
 Package pdftex.def Info: images/spitest_1.jpg  used on input line 51.
 (pdftex.def)             Requested size: 212.41261pt x 159.27238pt.
-<images/spitest_2.jpg, id=126, 5685.24pt x 4263.93pt>
+<images/spitest_2.jpg, id=132, 5685.24pt x 4263.93pt>
 File: images/spitest_2.jpg Graphic file (type jpg)
 <use images/spitest_2.jpg>
 Package pdftex.def Info: images/spitest_2.jpg  used on input line 52.
 (pdftex.def)             Requested size: 212.41261pt x 159.27238pt.
- [6 <./images/dht22_connect.jpg> <./images/spitest_1.jpg> <./images/spitest_2.j
+ [7 <./images/dht22_connect.jpg> <./images/spitest_1.jpg> <./images/spitest_2.j
 pg>]
-<images/pressure.jpg, id=130, 5685.24pt x 4263.93pt>
+<images/pressure.jpg, id=137, 5685.24pt x 4263.93pt>
 File: images/pressure.jpg Graphic file (type jpg)
 <use images/pressure.jpg>
 Package pdftex.def Info: images/pressure.jpg  used on input line 62.
 (pdftex.def)             Requested size: 283.22162pt x 212.36317pt.
- [7 <./images/pressure.jpg>]
-<images/pms7003_connect.jpg, id=136, 5685.24pt x 4263.93pt>
+ [8 <./images/pressure.jpg>]
+<images/pms7003_connect.jpg, id=142, 5685.24pt x 4263.93pt>
 File: images/pms7003_connect.jpg Graphic file (type jpg)
 <use images/pms7003_connect.jpg>
 Package pdftex.def Info: images/pms7003_connect.jpg  used on input line 73.
 (pdftex.def)             Requested size: 283.22162pt x 212.36317pt.
-<images/adc_connect.jpg, id=137, 5685.24pt x 4263.93pt>
+<images/adc_connect.jpg, id=143, 5685.24pt x 4263.93pt>
 File: images/adc_connect.jpg Graphic file (type jpg)
 <use images/adc_connect.jpg>
 Package pdftex.def Info: images/adc_connect.jpg  used on input line 83.
 (pdftex.def)             Requested size: 283.22162pt x 212.36317pt.
- [8 <./images/pms7003_connect.jpg>] [9 <./images/adc_connect.jpg>]
-<images/windspeed.jpg, id=148, 4263.93pt x 5685.24pt>
+ [9 <./images/pms7003_connect.jpg>] [10 <./images/adc_connect.jpg>]
+<images/windspeed.jpg, id=154, 4263.93pt x 5685.24pt>
 File: images/windspeed.jpg Graphic file (type jpg)
 <use images/windspeed.jpg>
 Package pdftex.def Info: images/windspeed.jpg  used on input line 99.
 (pdftex.def)             Requested size: 212.41261pt x 283.15091pt.
-<images/winddir.jpg, id=149, 4263.93pt x 5685.24pt>
+<images/winddir.jpg, id=155, 4263.93pt x 5685.24pt>
 File: images/winddir.jpg Graphic file (type jpg)
 <use images/winddir.jpg>
 Package pdftex.def Info: images/winddir.jpg  used on input line 100.
 (pdftex.def)             Requested size: 212.41261pt x 283.15091pt.
- [10 <./images/windspeed.jpg> <./images/winddir.jpg>]
-<images/rainfall.jpg, id=153, 5685.24pt x 4263.93pt>
+ [11 <./images/windspeed.jpg> <./images/winddir.jpg>]
+<images/rainfall.jpg, id=159, 5685.24pt x 4263.93pt>
 File: images/rainfall.jpg Graphic file (type jpg)
 <use images/rainfall.jpg>
 Package pdftex.def Info: images/rainfall.jpg  used on input line 110.
 (pdftex.def)             Requested size: 283.22162pt x 212.36317pt.
- [11 <./images/rainfall.jpg>]
+ [12 <./images/rainfall.jpg>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 125.
 
-) [12] [13]
+) [13] [14]
 \openout2 = `sub/result_and_discussion.aux'.
 
- (./sub/result_and_discussion.tex [14
+ (./sub/result_and_discussion.tex [15
 
 
 ]
-<images/dbsuccess.png, id=170, 925.65825pt x 441.44925pt>
+<images/dbsuccess.png, id=176, 925.65825pt x 441.44925pt>
 File: images/dbsuccess.png Graphic file (type png)
 <use images/dbsuccess.png>
 Package pdftex.def Info: images/dbsuccess.png  used on input line 7.
 (pdftex.def)             Requested size: 424.82523pt x 202.60432pt.
-<images/awscsv.png, id=171, 367.3725pt x 401.0985pt>
+<images/awscsv.png, id=177, 367.3725pt x 401.0985pt>
 File: images/awscsv.png Graphic file (type png)
 <use images/awscsv.png>
 Package pdftex.def Info: images/awscsv.png  used on input line 14.
 (pdftex.def)             Requested size: 330.42041pt x 360.7772pt.
-) [15 <./images/dbsuccess.png>] [16 <./images/awscsv.png>]
+) [16 <./images/dbsuccess.png>] [17 <./images/awscsv.png>]
 \openout2 = `sub/conclusion.aux'.
 
- (./sub/conclusion.tex) [17
+ (./sub/conclusion.tex) [18
 
 
 ]
@@ -1801,13 +1812,13 @@ Package pdftex.def Info: images/awscsv.png  used on input line 14.
  (./sub/appendix.tex
 (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
-) [18
+) [19
 
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
- [19] [20]
+ [20] [21]
 (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
@@ -1816,23 +1827,23 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 (c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-) [21] [22]) [23]
+) [22] [23]) [24]
 (./RnE_report-19019_19039.bbl
 LaTeX Font Info:    Font shape `LUC/nanummj/m/it' in size <10.95> not available
 
 (Font)              Font shape `LUC/nanummj/m/sl' tried instead on input line 6
 .
-) [24
+) [25
 
 ] (./RnE_report-19019_19039.aux
 (./sub/abstract.aux) (./sub/introduction.aux) (./sub/theoritical_background.aux
 ) (./sub/method_of_the_study.aux) (./sub/result_and_discussion.aux)
 (./sub/conclusion.aux) (./sub/appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 45606 strings out of 492167
- 1030062 string characters out of 6129158
- 1512655 words of memory out of 5000000
- 49109 multiletter control sequences out of 15000+600000
+ 45622 strings out of 492167
+ 1030410 string characters out of 6129158
+ 1512769 words of memory out of 5000000
+ 49125 multiletter control sequences out of 15000+600000
  642698 words of font info for 280 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,10n,140p,3516b,1816s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1933,10 +1944,10 @@ pe1/uhc/umj/umj01.pfb><c:/texlive/2019/texmf-dist/fonts/type1/uhc/umj/umj03.pfb
 ><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on RnE_report-19019_19039.pdf (30 pages, 41841403 bytes).
+Output written on RnE_report-19019_19039.pdf (31 pages, 41907265 bytes).
 PDF statistics:
- 535 PDF objects out of 1000 (max. 8388607)
- 381 compressed objects within 4 object streams
+ 542 PDF objects out of 1000 (max. 8388607)
+ 384 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

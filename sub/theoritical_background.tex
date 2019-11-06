@@ -4,6 +4,14 @@
 
 라즈베리파이는 영국의 라즈베리파이 재단에서 개발한 초소형 컴퓨터 기판으로 학교 등에서 저가로 컴퓨터 교육을 할 수 있게 하기 위해 개발되었다. 하드 디스크 드라이브(HDD)와 솔리드 스테이트 드라이브(SSD)가 내장되어 있지 않으며 운영체제를 포함한 모든 파일은 마이크로 SD 카드에 저장된다. 본 연구에서 사용된 라즈베리파이의 모델은 Raspberry Pi 3 B이다. 라즈베리 파이 3에는 전원 공급 핀 4개, GND 핀 8개, UART 통신 핀 2개, GPIO 핀 24개 등 총 40개의 핀이 존재하며 이 핀을 통해 각종 센서들을 연결하여 센서에서 측정한 값을 프로그램을 통해 읽어들여 라즈베리파이의 디스플레이에 표시하거나 저장할 수 있다. 아날로그 핀이 존재하는 아두이노와는 달리 라즈베리파이의 GPIO 통신 핀은 모두 디지털 통신 방식을 사용한다는 차이점이 있다. 그 외에 4개의 USB 포트, HDMI 포트 등이 존재하며 전원은 5V의 직류 전압을 사용한다.
 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=.2\textwidth]{raspilogo}
+	\includegraphics[width=.4\textwidth]{raspberrypi3b}
+	\caption{Raspberry pi Logo와 본 연구에서 사용하는 3 B 모델}
+	\label{RASPI}
+\end{figure}
+
 \subsection{Raspbian (라즈비안)}
 라즈비안은 라즈베리파이의 운영 체제(OS) 중 하나이며 라즈베리 파이 재단에서 개발한 공식 운영체제이다. 데비안 리눅스 기반의 운영 체제이며 프로그래밍을 편리하게 하기 위해 Python, Scratch 등의 프로그램을 미리 설치하여 배포하는 Raspbian with Desktop and Recommended Software 버전이 존재하며 연구에서 사용하였다. 현재 라즈비안의 최신 버전은 4.19이며 본 연구에서는 최신 버전을 사용하였다.
 
