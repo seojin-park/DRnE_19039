@@ -1,6 +1,6 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces MariaDB 로고\relax }}{3}% 
 \contentsline {figure}{\numberline {2}{\ignorespaces 기상청 AWS 관측자료와 한국교원대학교에 위치한 AWS 장치\relax }}{3}% 
-\contentsline {figure}{\numberline {3}{\ignorespaces DHT22 센서를 단독으로 연결한 모습\relax }}{5}% 
+\contentsline {figure}{\numberline {3}{\ignorespaces DHT22 센서를 단독으로 연결한 모습\relax }}{6}% 
 \contentsline {figure}{\numberline {4}{\ignorespaces SPI 통신을 사용한 BMP180 센서의 연결\relax }}{6}% 
 \contentsline {figure}{\numberline {5}{\ignorespaces I2C 통신을 사용한 BMP180 센서의 연결\relax }}{7}% 
 \contentsline {figure}{\numberline {6}{\ignorespaces PMS7003 센서를 USB to TTL 케이블을 사용해 연결한 모습\relax }}{8}% 

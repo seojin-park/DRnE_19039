@@ -4,7 +4,7 @@
 \contentsline {section}{초록}{v}% 
 \contentsline {section}{\numberline {I}서론}{1}% 
 \contentsline {subsection}{\numberline {I.1}연구의 필요성}{1}% 
-\contentsline {subsection}{\numberline {I.2}연구 목적}{1}% 
+\contentsline {subsection}{\numberline {I.2}연구의 목적}{1}% 
 \contentsline {section}{\numberline {II}이론적 배경}{2}% 
 \contentsline {subsection}{\numberline {II.1}라즈베리파이}{2}% 
 \contentsline {subsection}{\numberline {II.2}Raspbian (라즈비안)}{2}% 
@@ -16,19 +16,17 @@
 \contentsline {subsubsection}{\numberline {III.1.2}네트워크 및 공유기 설정}{4}% 
 \contentsline {subsection}{\numberline {III.2}센서의 연결}{5}% 
 \contentsline {subsubsection}{\numberline {III.2.1}온습도 센서(DHT22)}{5}% 
-\contentsline {subsubsection}{\numberline {III.2.2}기압 센서(BMP180)}{6}% 
+\contentsline {subsubsection}{\numberline {III.2.2}기압 센서(BMP180)}{5}% 
 \contentsline {subsubsection}{\numberline {III.2.3}미세먼지 센서(PMS7003)}{7}% 
 \contentsline {subsubsection}{\numberline {III.2.4}ADC(Analog to Digital Converter, MCP3208)}{8}% 
-\contentsline {subsubsection}{\numberline {III.2.5}풍속센서(SEN0170)}{8}% 
-\contentsline {subsubsection}{\numberline {III.2.6}풍향센서(DM2014)}{9}% 
-\contentsline {subsubsection}{\numberline {III.2.7}강우량센서(p/n 80422)}{10}% 
+\contentsline {subsubsection}{\numberline {III.2.5}풍속센서(SEN0170)}{9}% 
+\contentsline {subsubsection}{\numberline {III.2.6}풍향센서(DM2014)}{10}% 
+\contentsline {subsubsection}{\numberline {III.2.7}강우량센서(p/n 80422)}{11}% 
 \contentsline {subsection}{\numberline {III.3}AWS 구조물의 보수와 센서의 기판 연결}{11}% 
 \contentsline {subsection}{\numberline {III.4}서버 데이터베이스로 수집한 정보 전송}{12}% 
 \contentsline {section}{\numberline {IV}결과 및 토의}{14}% 
 \contentsline {section}{\numberline {V}결론}{17}% 
-\contentsline {section}{\numberline {VI}추후 연구}{18}% 
-\contentsline {subsection}{\numberline {VI.1}제목}{18}% 
-\contentsline {section}{\numberline {VII}부록}{19}% 
-\contentsline {subsection}{\numberline {VII.1}AWS Python 코드}{19}% 
-\contentsline {subsection}{\numberline {VII.2}풍속센서 작동을 위한 C언어 코드}{22}% 
-\contentsline {section}{References}{25}% 
+\contentsline {section}{\numberline {VI}부록}{18}% 
+\contentsline {subsection}{\numberline {VI.1}AWS Python 코드}{18}% 
+\contentsline {subsection}{\numberline {VI.2}풍속센서 작동을 위한 C언어 코드}{21}% 
+\contentsline {section}{References}{24}% 
