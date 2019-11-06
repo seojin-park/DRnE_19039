@@ -1,5 +1,268 @@
 \section{부록}
 
-\subsection{코드}
+\subsection{AWS Python 코드}
 
-\#include <DHT.h>\\
+\lstset{basicstyle=\scriptsize, tabsize=4, numbers=left, keywordstyle=\color{blue}, commentstyle=\color{magenta}}
+
+\begin{lstlisting}[language=python]
+# Raspberry Pi ADC Python Code
+
+# 0. Modules to import
+import time
+import Adafruit_DHT
+import smbus
+import pymysql
+from gpiozero import Button
+
+rain_sensor = Button(6)
+BUCKET_SIZE = 0.2794
+count = 0
+count15 = 0
+count60 = 0
+count3h = 0
+count6h = 0
+count12h = 0
+count1d = 0
+i = 0
+now15 = time.time()
+now60 = time.time()
+now3h = time.time()
+now6h = time.time()
+now12h = time.time()
+now1d = time.time()
+rain15 = 0
+rain60 = 0
+rain3h = 0
+rain6h = 0
+rain12h = 0
+rain1d = 0
+localcode = 111111
+localname = 'Suwon'
+temp = 0
+airp = 0
+rh = 0
+# 1. Settings
+
+f = open("windspeed.txt", 'r');
+conn = pymysql.connect(host='ess.gs.hs.kr', user='AWS', password='rudrlrhkgkrrh',
+db='AWS_GSHS', charset='utf8mb4')
+
+curs = conn.cursor()
+sql = """insert into 1min_data(OBS_code, OBS_datetime, preci_now, preci_15, preci_60, preci_3H, preci_6H, preci_12H, preci_1day, temperature, wind_spd01, RH, Air_P, REMARK)
+values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)""" # server database information
+
+while True:
+
+# 2. Humidity & Temperature
+sensor_name = Adafruit_DHT.DHT22
+sensor_pin = 25
+humidity, temperature = Adafruit_DHT.read_retry(sensor_name, sensor_pin)
+print('Temp = %.2f C' % temperature)
+print('Humid = %.2f' % humidity)
+temp = round(temperature, 2)
+rh = round(humidity, 2)
+time.sleep(1)
+
+# 3. Pressure
+bus = smbus.SMBus(1)
+bus.write_byte(0x77, 0x1E)
+
+time.sleep(0.25)
+
+data = bus.read_i2c_block_data(0x77, 0xA2, 2)
+C1 = data[0] * 256 + data[1]
+data = bus.read_i2c_block_data(0x77, 0xA4, 2)
+C2 = data[0] * 256 + data[1]
+data = bus.read_i2c_block_data(0x77, 0xA6, 2)
+C3 = data[0] * 256 + data[1]
+data = bus.read_i2c_block_data(0x77, 0xA8, 2)
+C4 = data[0] * 256 + data[1]
+data = bus.read_i2c_block_data(0x77, 0xAA, 2)
+C5 = data[0] * 256 + data[1]
+data = bus.read_i2c_block_data(0x77, 0xAC, 2)
+C6 = data[0] * 256 + data[1]
+bus.write_byte(0x77, 0x40)
+
+time.sleep(0.25)
+
+value = bus.read_i2c_block_data(0x77, 0x00, 3)
+D1 = value[0] * 65536 + value[1] * 256 + value[2]
+bus.write_byte(0x77, 0x50)
+
+time.sleep(0.25)
+
+value = bus.read_i2c_block_data(0x77, 0x00, 3)
+D2 = value[0] * 65536 + value[1] * 256 + value[2]
+dT = D2 - C5 * 256
+TEMP = 2000 + dT * C6 / 8388608
+OFF = C2 * 65536 + (C4 * dT) / 128
+SENS = C1 * 32768 + (C3 * dT) / 256
+T2 = 0
+OFF2 = 0
+SENS2 = 0
+if TEMP >= 2000:
+T2 = 0
+OFF2 = 0
+SENS2 = 0
+elif TEMP < 2000:
+T2 = (dT * dT) / 2147483648
+OFF2 = 5 * ((TEMP - 2000) * (TEMP - 2000)) / 2
+SENS2 = 5 * ((TEMP - 2000) * (TEMP - 2000)) / 4
+if TEMP < -1500:
+OFF2 = OFF2 + 7 * ((TEMP + 1500) * (TEMP + 1500))
+SENS2 = SENS2 + 11 * ((TEMP + 1500) * (TEMP + 1500)) / 2
+TEMP = TEMP - T2
+OFF = OFF - OFF2
+SENS = SENS - SENS2
+pressure = ((((D1 * SENS) / 2097152) - OFF) / 32768.0) / 100.0
+cTemp = TEMP / 100.0
+fTemp = cTemp * 1.8 + 32
+
+print("Pressure : %.1f mbar" % pressure)
+airp = round(pressure, 1)
+time.sleep(0.25)
+
+
+# 4. Rainfall
+def bucket_tipped():
+global count15
+global count60
+global count3h
+global count6h
+global count12h
+global count1d
+count15 += 1
+count60 += 1
+count3h += 1
+count6h += 1
+count12h += 1
+count1d += 1
+
+
+rain_sensor.when_pressed = bucket_tipped
+
+if (time.time() - now15 >= 900):
+rain15 = round(count15 * BUCKET_SIZE, 1)
+count15 = 0
+now15 = time.time()
+if (time.time() - now60 >= 3600):
+rain60 = round(count60 * BUCKET_SIZE, 1)
+count60 = 0
+now60 = time.time()
+if (time.time() - now3h >= 10800):
+rain3h = round(count3h * BUCKET_SIZE, 1)
+count3h = 0
+now3h = time.time()
+if (time.time() - now6h >= 21600):
+rain6h = round(count6h * BUCKET_SIZE, 1)
+count6h = 0
+now6h = time.time()
+if (time.time() - now12h >= 43200):
+rain12h = round(count12h * BUCKET_SIZE, 1)
+count12h = 0
+now12h = time.time()
+if (time.time() - now1d >= 86400):
+rain1d = round(count1d * BUCKET_SIZE, 1)
+count1d = 0
+now1d = time.time()
+if (count15 >= 5):
+count = 'O'
+else:
+count = 'X'
+print(count)
+
+# 5. Wind speed
+line = f.readline()
+wspeed = line
+print(wspeed)
+
+# 6. Time Test
+print(time.time() - now15)
+
+# 7. Send info to Database
+k = time.strftime('%Y%m%d-%H%M%S', time.localtime(time.time()))
+curs.execute(sql, (
+localcode, time.strftime('%Y%m%d-%H%M%S', time.localtime(time.time())), count, rain15, rain60, rain3h, rain6h,
+rain12h, rain1d, temp, wspeed, rh, airp, 'RnE')) # send data to server
+g = open("aws.csv", 'a')
+data = """%d, %s, %c, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f\n""" % (
+localcode, k, count, rain15, rain60, rain3h, rain6h, rain12h, rain1d, temp, float(wspeed), rh, airp)
+g.write(data) # save data in raspberry pi
+g.close()
+conn.commit()
+\end{lstlisting}
+
+\subsection{풍속센서 작동을 위한 C언어 코드}
+
+\lstset{basicstyle=\scriptsize, tabsize=4, numbers=left, keywordstyle=\color{blue}, commentstyle=\color{magenta}}
+
+\begin{lstlisting}[language = c++]
+#include <stdio.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+#include <wiringPi.h>
+#include <wiringPiSPI.h>
+
+#define CS_MCP3208  6        // BCM_GPIO 25
+
+#define SPI_CHANNEL 0
+#define SPI_SPEED   1000000  // 1MHz
+
+
+int read_mcp3208_adc(unsigned char adcChannel)
+{
+unsigned char buff[3];
+int adcValue = 0;
+
+buff[0] = 0x06 | ((adcChannel & 0x07) >> 7);
+buff[1] = ((adcChannel & 0x07) << 6);
+buff[2] = 0x00;
+
+digitalWrite(CS_MCP3208, 0);  // Low : CS Active
+
+wiringPiSPIDataRW(SPI_CHANNEL, buff, 3);
+
+buff[1] = 0x0F & buff[1];
+adcValue = ( buff[1] << 8) | buff[2];
+
+digitalWrite(CS_MCP3208, 1);  // High : CS Inactive
+
+return adcValue;
+}
+
+
+int main (void)
+{
+FILE *out;
+int adcChannel = 0;
+int adcValue   = 0;
+
+if(wiringPiSetup() == -1)
+{
+fprintf (out, "Unable to start wiringPi: %s\n", strerror(errno));
+return 1 ;
+}
+
+if(wiringPiSPISetup(SPI_CHANNEL, SPI_SPEED) == -1)
+{
+fprintf (out, "wiringPiSPISetup Failed: %s\n", strerror(errno));
+return 1 ;
+}
+
+pinMode(CS_MCP3208, OUTPUT);
+int i = 1;
+for(i=1; i<=3600; i++)
+{
+out = fopen("windspeed.txt", "a");
+adcValue = read_mcp3208_adc(adcChannel);
+if(adcValue <= 123) fprintf(out, "0\n"); // too weak voltage
+else fprintf(out, "%.2f\n", (float)(20.25*adcValue)/1000)-8.1;
+fclose(out);
+sleep(2.54856); // sync with Python code
+}
+
+
+return 0;
+}
+\end{lstlisting}
