@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.10.19)  6 NOV 2019 20:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.10.19)  27 NOV 2019 10:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1822,7 +1822,7 @@ File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 (./RnE_report-19019_19039.bbl
 LaTeX Font Info:    Font shape `LUC/nanummj/m/it' in size <10.95> not available
 
-(Font)              Font shape `LUC/nanummj/m/sl' tried instead on input line 6
+(Font)              Font shape `LUC/nanummj/m/sl' tried instead on input line 7
 .
 ) [25
 
@@ -1831,10 +1831,10 @@ LaTeX Font Info:    Font shape `LUC/nanummj/m/it' in size <10.95> not available
 ) (./sub/method_of_the_study.aux) (./sub/result_and_discussion.aux)
 (./sub/conclusion.aux) (./sub/appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 45622 strings out of 492167
- 1030410 string characters out of 6129158
+ 45623 strings out of 492167
+ 1030423 string characters out of 6129158
  1512826 words of memory out of 5000000
- 49125 multiletter control sequences out of 15000+600000
+ 49126 multiletter control sequences out of 15000+600000
  642698 words of font info for 280 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,10n,140p,3516b,1816s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1935,7 +1935,7 @@ pe1/uhc/umj/umj01.pfb><c:/texlive/2019/texmf-dist/fonts/type1/uhc/umj/umj03.pfb
 ><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on RnE_report-19019_19039.pdf (31 pages, 41907293 bytes).
+Output written on RnE_report-19019_19039.pdf (31 pages, 41910127 bytes).
 PDF statistics:
  542 PDF objects out of 1000 (max. 8388607)
  384 compressed objects within 4 object streams

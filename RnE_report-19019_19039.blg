@@ -10,9 +10,9 @@ A level-1 auxiliary file: sub/result_and_discussion.aux
 A level-1 auxiliary file: sub/conclusion.aux
 A level-1 auxiliary file: sub/appendix.aux
 Database file #1: bibfile.bib
-You can't pop an empty literal stack for entry Ref4
+You can't pop an empty literal stack for entry Ref1
 while executing---line 2819 of file gshs_report.bst
-You can't pop an empty literal stack for entry Ref2
+You can't pop an empty literal stack for entry Ref3
 while executing---line 2819 of file gshs_report.bst
 You've used 4 entries,
             2759 wiz_defined-function locations,
