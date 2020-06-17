@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.25)  27 NOV 2019 12:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.6.16)  17 JUN 2020 19:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1742,17 +1742,17 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
 (./RnE_report-19039_19119.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
- [1
-
-])
+)
 \tf@toc=\write4
 \openout4 = `RnE_report-19039_19119.toc'.
 
- [2] (./RnE_report-19039_19119.lof)
+ [1
+
+] (./RnE_report-19039_19119.lof)
 \tf@lof=\write5
 \openout5 = `RnE_report-19039_19119.lof'.
 
- [3
+ [2
 
 
 ]
@@ -1760,13 +1760,13 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 \tf@lot=\write6
 \openout6 = `RnE_report-19039_19119.lot'.
 
- [4
+ [3
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 46.
- [5
+ [4
 
 
 ])
@@ -1785,12 +1785,12 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 
 
 (./sub/theoritical_background.tex
-<images/raspilogo.png, id=94, 402.50375pt x 513.92pt>
+<images/raspilogo.png, id=90, 402.50375pt x 513.92pt>
 File: images/raspilogo.png Graphic file (type png)
 <use images/raspilogo.png>
 Package pdftex.def Info: images/raspilogo.png  used on input line 9.
 (pdftex.def)             Requested size: 94.4048pt x 120.53595pt.
-<images/raspberrypi3b.jpg, id=95, 803.0pt x 602.25pt>
+<images/raspberrypi3b.jpg, id=91, 803.0pt x 602.25pt>
 File: images/raspberrypi3b.jpg Graphic file (type jpg)
 <use images/raspberrypi3b.jpg>
 Package pdftex.def Info: images/raspberrypi3b.jpg  used on input line 10.
@@ -1799,17 +1799,17 @@ Package pdftex.def Info: images/raspberrypi3b.jpg  used on input line 10.
 
 
  <./images/raspilogo.png> <./images/raspberrypi3b.jpg>]
-<images/mariadblogo.png, id=105, 642.4pt x 580.1675pt>
+<images/mariadblogo.png, id=102, 642.4pt x 580.1675pt>
 File: images/mariadblogo.png Graphic file (type png)
 <use images/mariadblogo.png>
 Package pdftex.def Info: images/mariadblogo.png  used on input line 23.
 (pdftex.def)             Requested size: 188.8096pt x 170.51938pt.
-<images/awsdata.png, id=106, 959.38425pt x 567.3195pt>
+<images/awsdata.png, id=103, 959.38425pt x 567.3195pt>
 File: images/awsdata.png Graphic file (type png)
 <use images/awsdata.png>
 Package pdftex.def Info: images/awsdata.png  used on input line 33.
 (pdftex.def)             Requested size: 283.22162pt x 167.47899pt.
-<images/realaws.jpg, id=107, 4263.93pt x 5685.24pt>
+<images/realaws.jpg, id=104, 4263.93pt x 5685.24pt>
 File: images/realaws.jpg Graphic file (type jpg)
 <use images/realaws.jpg>
 Package pdftex.def Info: images/realaws.jpg  used on input line 34.
@@ -1828,93 +1828,670 @@ LaTeX Font Info:    Try loading font information for LUC+uhcmj on input line 36
 (c:/texlive/2018/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
 File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
 )
-<images/dht22_connect.jpg, id=123, 5685.24pt x 4263.93pt>
+! Missing $ inserted.
+<inserted text> 
+                $
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
+                                                  }
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+                                                  
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\text@ ...e {\textdef@ \displaystyle \f@size {#1}}
+                                                  {\textdef@ \textstyle \f@s...
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
+                                                  }
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+                                                  
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\text@ ...xtstyle \f@size {\firstchoice@false #1}}
+                                                  {\textdef@ \textstyle \sf@...
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
+                                                  }
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+                                                  
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\text@ ...tstyle \sf@size {\firstchoice@false #1}}
+                                                  {\textdef@ \textstyle \ssf...
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
+                                                  }
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+                                                  
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\text@ ...style \ssf@size {\firstchoice@false #1}}
+                                                  \check@mathfonts }
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\text@ ...firstchoice@false #1}}\check@mathfonts }
+                                                  
+l.41 ...연결을 위해서는 10 $\textrm{\Omega}
+                                                  $ 저항 1개, 3.3 $\textr...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+\latex@xfloat ...vf \fi \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.43 \begin{figure}[htbp]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.43 \begin{figure}[htbp]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<images/dht22_connect.jpg, id=120, 5685.24pt x 4263.93pt>
 File: images/dht22_connect.jpg Graphic file (type jpg)
 <use images/dht22_connect.jpg>
-Package pdftex.def Info: images/dht22_connect.jpg  used on input line 45.
-(pdftex.def)             Requested size: 283.22162pt x 212.36317pt.
- [6]
-<images/spitest_1.jpg, id=129, 5685.24pt x 4263.93pt>
+! Undefined control sequence.
+\latex@xfloat ...vf \fi \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.55 \begin{figure}[htbp]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.55 \begin{figure}[htbp]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<images/spitest_1.jpg, id=121, 5685.24pt x 4263.93pt>
 File: images/spitest_1.jpg Graphic file (type jpg)
 <use images/spitest_1.jpg>
-Package pdftex.def Info: images/spitest_1.jpg  used on input line 57.
-(pdftex.def)             Requested size: 212.41261pt x 159.27238pt.
-<images/spitest_2.jpg, id=130, 5685.24pt x 4263.93pt>
+<images/spitest_2.jpg, id=122, 5685.24pt x 4263.93pt>
 File: images/spitest_2.jpg Graphic file (type jpg)
 <use images/spitest_2.jpg>
-Package pdftex.def Info: images/spitest_2.jpg  used on input line 58.
-(pdftex.def)             Requested size: 212.41261pt x 159.27238pt.
- [7 <./images/dht22_connect.jpg> <./images/spitest_1.jpg> <./images/spitest_2.j
-pg>]
-<images/pressure.jpg, id=135, 5685.24pt x 4263.93pt>
+! Undefined control sequence.
+\latex@xfloat ...vf \fi \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.66 \begin{figure}[htbp]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.66 \begin{figure}[htbp]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<images/pressure.jpg, id=123, 5685.24pt x 4263.93pt>
 File: images/pressure.jpg Graphic file (type jpg)
 <use images/pressure.jpg>
-Package pdftex.def Info: images/pressure.jpg  used on input line 68.
-(pdftex.def)             Requested size: 283.22162pt x 212.36317pt.
- [8 <./images/pressure.jpg>]
-<images/pms7003_connect.jpg, id=140, 5685.24pt x 4263.93pt>
+! Undefined control sequence.
+\latex@xfloat ...vf \fi \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.80 \begin{figure}[htbp]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.80 \begin{figure}[htbp]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<images/pms7003_connect.jpg, id=124, 5685.24pt x 4263.93pt>
 File: images/pms7003_connect.jpg Graphic file (type jpg)
 <use images/pms7003_connect.jpg>
-Package pdftex.def Info: images/pms7003_connect.jpg  used on input line 82.
-(pdftex.def)             Requested size: 283.22162pt x 212.36317pt.
-<images/adc_connect.jpg, id=141, 5685.24pt x 4263.93pt>
+! Undefined control sequence.
+\latex@xfloat ...vf \fi \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.92 \begin{figure}[htbp]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.92 \begin{figure}[htbp]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<images/adc_connect.jpg, id=125, 5685.24pt x 4263.93pt>
 File: images/adc_connect.jpg Graphic file (type jpg)
 <use images/adc_connect.jpg>
-Package pdftex.def Info: images/adc_connect.jpg  used on input line 94.
-(pdftex.def)             Requested size: 283.22162pt x 212.36317pt.
- [9 <./images/pms7003_connect.jpg>] [10 <./images/adc_connect.jpg>]
-<images/windspeed.jpg, id=152, 4263.93pt x 5685.24pt>
+! Missing $ inserted.
+<inserted text> 
+                $
+l.103 \[ v=20.25V-8.1\quad (V\geq
+                                  0.4)\]
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.103 \[ v=20.25V-8.1\quad (V\geq 0.4)\]
+                                        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+\latex@xfloat ...vf \fi \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.114 \begin{figure}[htbp]
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.114 \begin{figure}[htbp]
+                          
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<images/windspeed.jpg, id=126, 4263.93pt x 5685.24pt>
 File: images/windspeed.jpg Graphic file (type jpg)
 <use images/windspeed.jpg>
-Package pdftex.def Info: images/windspeed.jpg  used on input line 116.
-(pdftex.def)             Requested size: 212.41261pt x 283.15091pt.
-<images/winddir.jpg, id=153, 4263.93pt x 5685.24pt>
+<images/winddir.jpg, id=127, 4263.93pt x 5685.24pt>
 File: images/winddir.jpg Graphic file (type jpg)
 <use images/winddir.jpg>
-Package pdftex.def Info: images/winddir.jpg  used on input line 117.
-(pdftex.def)             Requested size: 212.41261pt x 283.15091pt.
- [11 <./images/windspeed.jpg> <./images/winddir.jpg>]
-<images/rainfall.jpg, id=157, 5685.24pt x 4263.93pt>
+! Undefined control sequence.
+\latex@xfloat ...vf \fi \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.127 \begin{figure}[htbp]
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.127 \begin{figure}[htbp]
+                          
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<images/rainfall.jpg, id=128, 5685.24pt x 4263.93pt>
 File: images/rainfall.jpg Graphic file (type jpg)
 <use images/rainfall.jpg>
-Package pdftex.def Info: images/rainfall.jpg  used on input line 129.
-(pdftex.def)             Requested size: 283.22162pt x 212.36317pt.
- [12 <./images/rainfall.jpg>]) [13] [14]
+! Undefined control sequence.
+\latex@xfloat ...vf \fi \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.150 \begin{table}[htbp]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.150 \begin{table}[htbp]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+)
+! Improper \prevdepth.
+\newpage ...everypar {}\fi \par \ifdim \prevdepth 
+                                                  >\z@ \vskip -\ifdim \prevd...
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.38 	\include{sub/method_of_the_study}
+                                        % 원래 있던 문
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[6]
 \openout2 = `sub/result_and_discussion.aux'.
 
- (./sub/result_and_discussion.tex [15
+ (./sub/result_and_discussion.tex [7
 
 
 ]
-<images/dbsuccess.png, id=175, 925.65825pt x 441.44925pt>
+<images/dbsuccess.png, id=137, 925.65825pt x 441.44925pt>
 File: images/dbsuccess.png Graphic file (type png)
 <use images/dbsuccess.png>
 Package pdftex.def Info: images/dbsuccess.png  used on input line 17.
 (pdftex.def)             Requested size: 424.82523pt x 202.60432pt.
-<images/awscsv.png, id=176, 367.3725pt x 401.0985pt>
+<images/awscsv.png, id=138, 367.3725pt x 401.0985pt>
 File: images/awscsv.png Graphic file (type png)
 <use images/awscsv.png>
 Package pdftex.def Info: images/awscsv.png  used on input line 24.
 (pdftex.def)             Requested size: 330.42041pt x 360.7772pt.
-) [16 <./images/dbsuccess.png>] [17 <./images/awscsv.png>]
+) [8 <./images/dbsuccess.png>] [9 <./images/awscsv.png>]
 \openout2 = `sub/conclusion.aux'.
 
- (./sub/conclusion.tex) [18
+ (./sub/conclusion.tex) [10
 
 
 ]
 \openout2 = `sub/appendix.aux'.
 
-
-(./sub/appendix.tex (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+ (./sub/appendix.tex
+(c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [19
+) [11
 
 
-]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
- [20] [21] (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+] [12] [13]
+(c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -1922,126 +2499,121 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [22] [23]) [24]
+) [14] [15]) [16]
 (./RnE_report-19039_19119.bbl
 LaTeX Font Info:    Font shape `LUC/nanummj/m/it' in size <10.95> not available
 
 (Font)              Font shape `LUC/nanummj/m/sl' tried instead on input line 7
 .
-) [25
+) [17
 
 ] (./RnE_report-19039_19119.aux
 (./sub/abstract.aux) (./sub/introduction.aux) (./sub/theoritical_background.aux
 ) (./sub/method_of_the_study.aux) (./sub/result_and_discussion.aux)
 (./sub/conclusion.aux) (./sub/appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 42912 strings out of 492649
- 989883 string characters out of 6133383
- 1294907 words of memory out of 5000000
- 45927 multiletter control sequences out of 15000+600000
- 640337 words of font info for 277 fonts, out of 8000000 for 9000
+ 42941 strings out of 492649
+ 990636 string characters out of 6133384
+ 1301504 words of memory out of 5000000
+ 45963 multiletter control sequences out of 15000+600000
+ 652685 words of font info for 312 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,10n,138p,10501b,1824s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,24n,138p,10501b,1823s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts
 /enc/dvips/base/8r.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-
-super-t1.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/201
-8/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbac.pfb><c:/texlive/2018/texm
-f-dist/fonts/type1/public/nanumtype1/nanumgtbad.pfb><c:/texlive/2018/texmf-dist
-/fonts/type1/public/nanumtype1/nanumgtbae.pfb><c:/texlive/2018/texmf-dist/fonts
-/type1/public/nanumtype1/nanumgtbb4.pfb><c:/texlive/2018/texmf-dist/fonts/type1
-/public/nanumtype1/nanumgtbbc.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
-c/nanumtype1/nanumgtbc1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanu
-mtype1/nanumgtbcd.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1
-/nanumgtbd5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanum
-mjbac.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbad.
-pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbae.pfb><c
-:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb1.pfb><c:/texl
-ive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb3.pfb><c:/texlive/20
-18/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb4.pfb><c:/texlive/2018/tex
-mf-dist/fonts/type1/public/nanumtype1/nanummjbb7.pfb><c:/texlive/2018/texmf-dis
-t/fonts/type1/public/nanumtype1/nanummjbb8.pfb><c:/texlive/2018/texmf-dist/font
-s/type1/public/nanumtype1/nanummjbb9.pfb><c:/texlive/2018/texmf-dist/fonts/type
-1/public/nanumtype1/nanummjbba.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
-ic/nanumtype1/nanummjbbb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nan
-umtype1/nanummjbbc.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype
-1/nanummjbbd.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanu
-mmjbbe.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc1
-.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc2.pfb><
-c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc5.pfb><c:/tex
-live/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc6.pfb><c:/texlive/2
-018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb><c:/texlive/2018/te
-xmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb><c:/texlive/2018/texmf-di
-st/fonts/type1/public/nanumtype1/nanummjbc9.pfb><c:/texlive/2018/texmf-dist/fon
-ts/type1/public/nanumtype1/nanummjbcc.pfb><c:/texlive/2018/texmf-dist/fonts/typ
-e1/public/nanumtype1/nanummjbcd.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
-lic/nanumtype1/nanummjbce.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/na
-numtype1/nanummjbcf.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtyp
-e1/nanummjbd0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nan
-ummjbd1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd
-2.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd3.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd4.pfb><c:/te
-xlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd5.pfb><c:/texlive/
-2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2018/t
-exmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2018/texmf-d
-ist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2018/texmf-dist/fo
-nts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2018/texmf-dist/fonts/ty
-pe1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
-blic/nanumtype1/nanummjmae.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/n
-anumtype1/nanummjmaf.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumty
-pe1/nanummjmb0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/na
-nummjmb1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
-b1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb
-><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb><c:/t
-exlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb><c:/texlive
-/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb><c:/texlive/2018/
-texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb><c:/texlive/2018/texmf-
-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb><c:/texlive/2018/texmf-dist/f
-onts/type1/public/nanumtype1/nanummjmb6.pfb><c:/texlive/2018/texmf-dist/fonts/t
-ype1/public/nanumtype1/nanummjmb7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanummjmb8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
-nanumtype1/nanummjmb9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumt
-ype1/nanummjmba.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/n
-anummjmbb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummj
-mbb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pf
-b><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:/
-texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb><c:/texliv
-e/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2018
-/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2018/texmf
--dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb><c:/texlive/2018/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjmc2.pfb><c:/texlive/2018/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjmc2.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
-public/nanumtype1/nanummjmc3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
-/nanumtype1/nanummjmc5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanum
-type1/nanummjmc6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjmc7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jmc8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.p
-fb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:
-/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmca.pfb><c:/texli
-ve/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb><c:/texlive/201
-8/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb><c:/texlive/2018/texm
-f-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb><c:/texlive/2018/texmf-dist
-/fonts/type1/public/nanumtype1/nanummjmcf.pfb><c:/texlive/2018/texmf-dist/fonts
-/type1/public/nanumtype1/nanummjmd0.pfb><c:/texlive/2018/texmf-dist/fonts/type1
-/public/nanumtype1/nanummjmd1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
-c/nanumtype1/nanummjmd1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanu
-mtype1/nanummjmd2.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1
-/nanummjmd3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanum
-mjmd4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.
-pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c
-:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texl
-ive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/20
-18/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2018/tex
-mf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2018/texmf-dist/fo
-nts/type1/uhc/umj/umj01.pfb><c:/texlive/2018/texmf-dist/fonts/type1/uhc/umj/umj
-03.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive
-/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2018/texmf-dist/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on RnE_report-19039_19119.pdf (31 pages, 41881065 bytes).
+super-t1.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbac.pfb><c
+:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbad.pfb><c:/texl
+ive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbae.pfb><c:/texlive/20
+18/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbb4.pfb><c:/texlive/2018/tex
+mf-dist/fonts/type1/public/nanumtype1/nanumgtbbc.pfb><c:/texlive/2018/texmf-dis
+t/fonts/type1/public/nanumtype1/nanumgtbc1.pfb><c:/texlive/2018/texmf-dist/font
+s/type1/public/nanumtype1/nanumgtbcd.pfb><c:/texlive/2018/texmf-dist/fonts/type
+1/public/nanumtype1/nanumgtbd5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjbac.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjbad.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjbae.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanu
+mmjbb1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb3
+.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb4.pfb><
+c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb7.pfb><c:/tex
+live/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb8.pfb><c:/texlive/2
+018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb9.pfb><c:/texlive/2018/te
+xmf-dist/fonts/type1/public/nanumtype1/nanummjbba.pfb><c:/texlive/2018/texmf-di
+st/fonts/type1/public/nanumtype1/nanummjbbc.pfb><c:/texlive/2018/texmf-dist/fon
+ts/type1/public/nanumtype1/nanummjbbd.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanummjbbe.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanummjbc1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/na
+numtype1/nanummjbc5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanummjbc6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nan
+ummjbc7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc
+8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc9.pfb>
+<c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcc.pfb><c:/te
+xlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcd.pfb><c:/texlive/
+2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbce.pfb><c:/texlive/2018/t
+exmf-dist/fonts/type1/public/nanumtype1/nanummjbcf.pfb><c:/texlive/2018/texmf-d
+ist/fonts/type1/public/nanumtype1/nanummjbd0.pfb><c:/texlive/2018/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjbd1.pfb><c:/texlive/2018/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjbd2.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjbd3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjbd4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumty
+pe1/nanummjbd5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjmac.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
+ac.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb
+><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/t
+exlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive
+/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2018/
+texmf-dist/fonts/type1/public/nanumtype1/nanummjmaf.pfb><c:/texlive/2018/texmf-
+dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb><c:/texlive/2018/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjmb1.pfb><c:/texlive/2018/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjmb1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanummjmb2.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjmb2.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumt
+ype1/nanummjmb3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjmb3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummj
+mb4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pf
+b><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb><c:/
+texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb><c:/texliv
+e/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><c:/texlive/2018
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/texlive/2018/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/texlive/2018/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2018/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
+public/nanumtype1/nanummjmbc.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmbd.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanum
+type1/nanummjmbe.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjmc0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumm
+jmc0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.p
+fb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb><c:
+/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb><c:/texli
+ve/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb><c:/texlive/201
+8/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb><c:/texlive/2018/texm
+f-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/texlive/2018/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/2018/texmf-dist/fonts
+/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2018/texmf-dist/fonts/type1
+/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanummjmc9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjmcc.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjmcd.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanum
+mjmce.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.
+pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb><c
+:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb><c:/texl
+ive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb><c:/texlive/20
+18/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb><c:/texlive/2018/tex
+mf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texlive/2018/texmf-dis
+t/fonts/type1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/2018/texmf-dist/font
+s/type1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2018/texmf-dist/fonts/type
+1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjmd6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjmd6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjmd7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfsx10
+95.pfb><c:/texlive/2018/texmf-dist/fonts/type1/uhc/umj/umj01.pfb><c:/texlive/20
+18/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2018/texmf-dist/font
+s/type1/urw/times/utmr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/
+utmri8a.pfb>
+Output written on RnE_report-19039_19119.pdf (22 pages, 7867891 bytes).
 PDF statistics:
- 538 PDF objects out of 1000 (max. 8388607)
- 381 compressed objects within 4 object streams
+ 485 PDF objects out of 1000 (max. 8388607)
+ 343 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
