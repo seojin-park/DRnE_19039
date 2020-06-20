@@ -261,59 +261,115 @@
 	\renewcommand{\baselinestretch}{1.3}%
 	\thispagestyle{empty} \noindent%
 	%\@summitYear \newline
-	\@summitYear 학년도\newline
-	{\sf \textbf{경기과학고등학교 \@type R\&E \@reporttype 보고서}}
+	% \@summitYear 학년도\newline
+	% {\sf \textbf{경기과학고등학교 \@type R\&E \@reporttype 보고서}}
 	\vskip 3cm
 	\noindent\begin{minipage}[t]{\textwidth}
+	\begin{tikzpicture}
+		\centering;
+		\draw (0mm, 0mm) -- (25mm, 0mm) -- (25mm, 20mm) -- (0mm, 20mm) -- cycle;
+		\draw (0mm, 15mm) -- (25mm, 15mm);
+		\node(number) at (12.5mm, 17.5mm) {\fontsize{12pt}{12pt}\selectfont 출품번호};
+	\end{tikzpicture}
+	\end{minipage}
+	
+	\vskip 1cm
+	\noindent\begin{minipage}[t]{\textwidth}
 		\begin{center}
-			\fontsize{21pt}{21pt}\selectfont  \@title \\[21pt]
+			\fontsize{24pt}{24pt}\selectfont  제66회 경기도과학전람회 \\[24pt]
 		\end{center}
 	\end{minipage}
-	\vskip 3.6604cm %3cm + 12pt*1.3*1.2
+	\vskip 0.5cm
+	\noindent\begin{minipage}[t]{\textwidth}
+	\begin{center}
+		\begin{tikzpicture}
+			\centering;
+			\draw[thick] (0mm, 0mm) -- (135mm, 0mm) -- (135mm, 17mm) -- (0mm, 17mm) -- cycle;
+			\node(title) at (67.5mm, 8mm) {\fontsize{15pt}{15pt}\selectfont \@title};
+		\end{tikzpicture}
+	\end{center}
+	\end{minipage}
+	\vskip 1.5cm
+	
+	\noindent\begin{minipage}[t]{\textwidth}
+	\begin{center}
+		\begin{tikzpicture}
+			\centering;
+			\draw[thick] (0mm, 0mm) -- (125mm, 0mm) -- (125mm, 15mm) -- (0mm, 15mm) -- cycle;
+			\draw[thick] (62.5mm, 0mm) -- (62.5mm, 15mm);
+			\draw[dotted] (30mm, 0mm) -- (30mm, 15mm);
+			\draw[dotted] (92.5mm, 0mm) -- (92.5mm, 15mm);
+			\node(field1) at (15mm, 7mm) {\fontsize{15pt}{15pt}\selectfont 출품분야};
+			\node(stu) at (46.2mm, 7mm) {\fontsize{15pt}{15pt}\selectfont 학생};
+			\node(field2) at (77.5mm, 7mm) {\fontsize{15pt}{15pt}\selectfont 출품부문};
+			\node(ess) at (108.5mm, 7mm) {\fontsize{15pt}{15pt}\selectfont 지구 및 환경};
+		\end{tikzpicture}
+	\end{center}
+	\end{minipage}
+	
+	\vskip 2.5cm
+	%\vskip 3.6604cm %3cm + 12pt*1.3*1.2
 	\noindent\begin{minipage}[c]{\textwidth}
 		\begin{center}
-			\@summitYear. \@summitMonth. \@summitDate
+			\fontsize{20pt}{20pt}\selectfont \@summitYear. \@summitMonth. \@summitDate
 		\end{center}
 	\end{minipage}
-	\vskip 3.6604cm %3cm + 12pt*1.3*1.2
+
+	\vskip 2.5cm
 	\noindent\begin{minipage}[c]{\textwidth}
 		\begin{center}
-			\large \@firstAuthor\@firstAuthorEmail\\ 
+			\begin{tikzpicture}
+				\centering;
+				\draw (0mm, 0mm) -- (108mm, 0mm) -- (108mm, 40mm) -- (0mm, 40mm) -- cycle;
+				\draw (0mm, 13mm) -- (108mm, 13mm);
+				\draw (0mm, 26mm) -- (108mm, 26mm);
+				\draw (42mm, 0mm) -- (42mm, 40mm);
+				\node(field3) at (21mm, 33mm) {\fontsize{13pt}{13pt}\selectfont 구 \hskip 1pc 분};
+				\node(name) at (75mm, 33mm) {\fontsize{13pt}{13pt}\selectfont 성 \hskip 1pc 명};
+				\node(student) at (21mm, 19.5mm) {\fontsize{13pt}{13pt}\selectfont 출품자};
+				\node(teacher) at (21mm, 6.5mm) {\fontsize{13pt}{13pt}\selectfont 지도교사};
+			\end{tikzpicture}
+		\end{center}
+	\end{minipage}
+	%\vskip 3.6604cm %3cm + 12pt*1.3*1.2
+	%\noindent\begin{minipage}[c]{\textwidth}
+	%	\begin{center}
+	%		\large \@firstAuthor\@firstAuthorEmail\\ 
 			%\large 연구참여자 : \@firstAuthor(\@firstAuthorEmail)\\ 
-			\ifthenelse{\equal{\@secondAuthor}{}}{} {\hskip 7pc 
-				\@secondAuthor(\@secondAuthorEmail)\\ }%
-			\ifthenelse{\equal{\@thirdAuthor}{}}{}{\hskip 7pc 
-				\@thirdAuthor(\@thirdAuthorEmail)\\ }%
-			\ifthenelse{\equal{\@forthAuthor}{}}{}{\hskip 7pc 
-				\@forthAuthor(\@forthAuthorEmail)\\ }%
-			\ifthenelse{\equal{\@fifthAuthor}{}}{}{\hskip 7pc 
-				\@fifthAuthor(\@fifthAuthorEmail)\\ }%
-		\end{center}
-	\end{minipage}
-	\vskip 3.56pc %3pc + 12pt*1.3*1.2
-	\noindent\begin{minipage}[c]{\textwidth}
-		\begin{center}
-			\large \@advisor\@advisorEmail
-			%\large 지도교사: \@advisor(\@advisorEmail)
-		\end{center}
-	\end{minipage}
-	\vskip 2pc
-	\noindent\begin{minipage}[c]{\textwidth}
-		\begin{center}
-			\large \ifthenelse{\equal{\@type}{심화}}{지도교수: 
-			\@professor(\@professorEmail)}{}
-		\end{center}
-	\end{minipage}
-	\vskip 5pc
-	\noindent \begin{minipage}[c]{\textwidth}
-		\begin{center}
-			{\normalfont\fontsize{18}{18}\selectfont\bfseries 
-			과학영재학교}
-			~
-			{\normalfont\fontsize{24}{24}\selectfont\bfseries 
-			경기과학고등학교}
-		\end{center}
-	\end{minipage}
+	%		\ifthenelse{\equal{\@secondAuthor}{}}{} {\hskip 7pc 
+	%			\@secondAuthor(\@secondAuthorEmail)\\ }%
+	%		\ifthenelse{\equal{\@thirdAuthor}{}}{}{\hskip 7pc 
+	%			\@thirdAuthor(\@thirdAuthorEmail)\\ }%
+	%		\ifthenelse{\equal{\@forthAuthor}{}}{}{\hskip 7pc 
+	%			\@forthAuthor(\@forthAuthorEmail)\\ }%
+	%		\ifthenelse{\equal{\@fifthAuthor}{}}{}{\hskip 7pc 
+	%			\@fifthAuthor(\@fifthAuthorEmail)\\ }%
+	%	\end{center}
+	%\end{minipage}
+	%\vskip 3.56pc %3pc + 12pt*1.3*1.2
+	%\noindent\begin{minipage}[c]{\textwidth}
+	%	\begin{center}
+	%		\large \@advisor\@advisorEmail
+	%		%\large 지도교사: \@advisor(\@advisorEmail)
+	%	\end{center}
+	%\end{minipage}
+	%\vskip 2.5cm
+	%\noindent\begin{minipage}[c]{\textwidth}
+	%	\begin{center}
+	%		\large \ifthenelse{\equal{\@type}{심화}}{지도교수: 
+	%		\@professor(\@professorEmail)}{}
+	%	\end{center}
+	%\end{minipage}
+	%\vskip 5pc
+	%\noindent \begin{minipage}[c]{\textwidth}
+	%	\begin{center}
+	%		{\normalfont\fontsize{18}{18}\selectfont\bfseries 
+	%		과학영재학교}
+	%		~
+	%		{\normalfont\fontsize{24}{24}\selectfont\bfseries 
+	%		경기과학고등학교}
+	%	\end{center}
+	%\end{minipage}
 	\newpage
 }
 
