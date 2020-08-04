@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+
+\bibitem[1]{Society2020}
+정주용, 안명환, 손은하, \& 서애숙 (2002).
+\newblock {Terra/MODIS 자료를 이용한 해수면온도 산출}.
+\newblock {\em 대기}, {\em 12\/}(1), 173--176.
+
+\bibitem[2]{Surface2010}
+양성수, 양찬수, \& 박광순.
+\newblock {TeraScan 시스템에서 NOAA / AVHRR 해수면온도 산출시
+  구름 영향에 따른 신뢰도 부여 기법 : 5 월 자료 적용
+  Generation of Sea Surface Temperature Products Considering Cloud Effects
+  Using NOAA / AVHRR Data in the TeraScan System : Case Study for May Data}.
+\newblock {\em 한국해양환경공학회지}, {\em 13\/}(3), 165--173.
+
+\end{thebibliography}
