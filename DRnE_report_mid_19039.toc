@@ -1,18 +1,18 @@
-\contentsline {section}{Contents}{i}%
-\contentsline {section}{List of Figures}{ii}%
-\contentsline {section}{List of Tables}{iii}%
-\contentsline {section}{초록}{iv}%
-\contentsline {section}{\numberline {I}서론}{1}%
-\contentsline {subsection}{\numberline {I.1}연구의 필요성}{1}%
-\contentsline {subsection}{\numberline {I.2}선행연구 고찰}{1}%
-\contentsline {subsection}{\numberline {I.3}연구의 목적}{1}%
-\contentsline {section}{\numberline {II}이론적 배경}{2}%
-\contentsline {subsection}{\numberline {II.1}MODIS}{2}%
-\contentsline {subsection}{\numberline {II.2}Terra/Aqua 위성}{2}%
-\contentsline {section}{\numberline {III}연구 과정}{3}%
-\contentsline {subsection}{\numberline {III.1}접근 가능한 데이터 확인}{3}%
-\contentsline {subsection}{\numberline {III.2}데이터 크롤링}{3}%
-\contentsline {subsection}{\numberline {III.3}Ubuntu 환경}{3}%
-\contentsline {section}{\numberline {IV}결과 및 토의}{4}%
-\contentsline {section}{\numberline {V}앞으로의 계획}{5}%
-\contentsline {section}{References}{6}%
+\contentsline {section}{Contents}{i}
+\contentsline {section}{List of Figures}{ii}
+\contentsline {section}{List of Tables}{iii}
+\contentsline {section}{초록}{iv}
+\contentsline {section}{\numberline {I}서론}{1}
+\contentsline {subsection}{\numberline {I.1}연구의 필요성}{1}
+\contentsline {subsection}{\numberline {I.2}선행연구 고찰}{1}
+\contentsline {subsection}{\numberline {I.3}연구의 목적}{1}
+\contentsline {section}{\numberline {II}이론적 배경}{2}
+\contentsline {subsection}{\numberline {II.1}MODIS}{2}
+\contentsline {subsection}{\numberline {II.2}Terra/Aqua 위성}{2}
+\contentsline {section}{\numberline {III}연구 과정}{3}
+\contentsline {subsection}{\numberline {III.1}접근 가능한 데이터 확인}{3}
+\contentsline {subsection}{\numberline {III.2}데이터 크롤링}{3}
+\contentsline {subsection}{\numberline {III.3}Ubuntu 환경}{4}
+\contentsline {section}{\numberline {IV}결과 및 토의}{5}
+\contentsline {section}{\numberline {V}앞으로의 계획}{6}
+\contentsline {section}{References}{7}
